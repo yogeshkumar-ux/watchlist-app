@@ -1,0 +1,81 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 200px;
+    border-right: 1px solid #ddd;
+    padding: 41px;
+    background-color: #f8f9fa;
+  }
+  
+  .brand {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .menu-item {
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  
+  .separator {
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+  }
+  
+  .footer {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  .footer div {
+    margin-bottom: 10px;
+  }
+  
+  .dots {
+    cursor: pointer;
+    font-size: 24px;
+    user-select: none;
+  }
+  
+  .logout {
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logout button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff0000;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .logout button:hover {
+    background-color: #cc0000;
+  }
+  
+  .watchlist-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .watchlist-title a {
+    flex-grow: 1;
+    text-decoration: none;
+  }
+  
+  .watchlist-inputs {
+    margin-bottom: 20px;
+  }

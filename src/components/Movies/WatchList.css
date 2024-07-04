@@ -1,0 +1,79 @@
+.watchlist {
+    padding: 20px;
+  }
+  
+  .edit-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .edit-icons .edit-icon {
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .editable-section {
+    margin-bottom: 20px;
+  }
+  
+  .watchlist h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .watchlist .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .watchlist .movie-item {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .watchlist .movie-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .watchlist .movie-info {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .watchlist .movie-info h3 {
+    font-size: 18px;
+  }
+  
+  .watchlist .movie-info p {
+    margin: 5px 0;
+  }
+  
+  .watchlist .movie-info button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #ff0000;
+  }
+  
+  .watchlist .movie-info button.tick {
+    color: #00ff00; /* Green color for tick icon */
+  }
+  
+  .watchlist .movie-info button:hover {
+    color: #ff3333;
+  }
+  

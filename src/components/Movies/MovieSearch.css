@@ -1,0 +1,59 @@
+.movie-search {
+    padding: 20px;
+  }
+  
+  .movie-search h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .movie-search p {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: #ff3333;
+  }
+  
+  .loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust height as needed */
+  }
+  
+  .loader::after {
+    content: '';
+    width: 30px; /* Adjust size of loader */
+    height: 30px; /* Adjust size of loader */
+    border-radius: 50%;
+    border: 5px solid #ccc; /* Adjust color and thickness of loader */
+    border-top-color: #333; /* Adjust color of loader */
+    animation: spin 1s linear infinite; /* Animation */
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
